@@ -4,8 +4,8 @@
   vars:
     login_host: db.neelareddy.store
   tasks: 
-  - name: install MySQL server
-    ansible.buildin.dnf:
+  - name: Install MySQL server
+    ansible.builtin.dnf:
       name: mysql-server
       state: latest
 
