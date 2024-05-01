@@ -48,9 +48,9 @@
 
   - name: install python mysql dependencies
     ansible.builtin.pip:
-      name:
-      - PYMYSQL # to connect MySQL DB from Ansible
-      - Cryptography
+     name:
+     - PYMYSQL # to connect MySQL DB from Ansible
+     - Cryptography
     executable: pip3.9 # pip3.11 if python version is 3.11   
 
   - name: import data into mysql
