@@ -3,3 +3,6 @@ db.neelareddy.store
 
 [backend]
 backend.neelareddy.store
+
+[frontend]
+neelareddy.store
