@@ -46,7 +46,7 @@
       src: backend.service
       dest: /etc/systemd/system/backend.service    
 
-  - name: install python mysql command
+  - name: install python mysql dependencies
     ansible.builtin.pip:
       name:
       - PYMYSQL # to connect MySQL DB from Ansible
