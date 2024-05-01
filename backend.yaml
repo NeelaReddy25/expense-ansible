@@ -15,7 +15,7 @@
     ansible.builtin.dnf: # only works for redhat family
       name: "{{ item }}"
       state: installed
-    1oop:
+    loop:
     - nodejs
     - mysql
 
