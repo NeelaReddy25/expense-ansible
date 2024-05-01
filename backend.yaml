@@ -59,6 +59,7 @@
       login_password: "{{ login_password }}"
       login_host: "{{ login_host }}" 
       target: /app/schema/backend.sql
-      state: dump   
+      state: dump
+      name: all   
 
 
